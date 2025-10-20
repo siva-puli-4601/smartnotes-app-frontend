@@ -7,7 +7,7 @@ export default function ProtectedRoute() {
   const auth = {isAuthorized:true}
   useEffect(() => {
     const token = localStorage.getItem('token');
-    axios.get("http://localhost:5000/protected",{
+    axios.get("http://localhost:5001/protected",{
       headers : {
         Authorization : token,
       }

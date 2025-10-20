@@ -13,6 +13,7 @@ import Todos from './components/Todos';
 import ProtectedRoute from './utils/ProtectedRoute';
 import Logout from './components/Logout';
 import Profile from './components/Profile';
+// import Logout from './components/Logout';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +23,7 @@ root.render(
         <Route path="/" element={<App />}></Route>
         <Route path="/signin" element={<SignIn />}></Route>
         <Route path="/signup" element={<SignUp />}></Route>
+        <Route path='/signout' element={<Logout />}></Route>
         <Route path="/notes" element={<Notes />}></Route>
         <Route path="/todos" element={<Todos />}></Route>
         <Route path="/logout" element={<Logout />}></Route>

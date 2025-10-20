@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-export const URL = process.env.REACT_APP_SERVER_URL;
+export const URL = 'http://localhost:5001'
 
 function App() {
   const navigate = useNavigate();
@@ -47,7 +47,7 @@ function App() {
           <br/>
           <br/>
           </div>
-          <div><img className='w-100 ' src="https://evernote.com/c/assets/features/notes-app/note_app_hero_image@2x.png?31e8ccec3cb7328f" /></div>
+          <div><img className='w-100 ' src="https://plus.unsplash.com/premium_photo-1683309567810-4d232ee83d2f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bm90ZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=900" /></div>
         </div>
       </Row>
       <br/>
@@ -79,7 +79,7 @@ function App() {
         </div>
       </Row>
       <Row>
-        <div className='container text-center '>© 2023 SmartNotes project. All rights reserved.Security Legal Privacy</div>
+        <div className='container text-center '>© 2025 SmartNotes project. All rights reserved.Security Legal Privacy</div>
       </Row>
     </Container>
   

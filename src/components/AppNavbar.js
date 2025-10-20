@@ -18,7 +18,7 @@ function AppNavbar({logged=false}) {
           </Nav> : <Nav>
             <Link style={{textDecoration:"none",color:"white"}} to="/notes"><span style={{marginLeft:10}}>Notes</span></Link>
             <Link style={{textDecoration:"none"}} to="/todos"><span style={{marginLeft:10,color:"white"}}>Todos</span></Link>  
-            <Link style={{textDecoration:"none"}} to="/profile"><span style={{marginLeft:10,color:"white"}}>Profile</span></Link>
+            <Link style={{textDecoration:"none"}} to="/logout"><span style={{marginLeft:10,color:"white"}}>LogOut</span></Link>
           </Nav>}
           
         </Container>

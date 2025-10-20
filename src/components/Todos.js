@@ -111,7 +111,7 @@ export default function Todos() {
       setEmail(res.data.user.email);
       setUserid(res.data.user.id);
       console.log(res.data.user)
-      axios.post("${URL}/todos",{username:res.data.user.username}).then(res => {
+      axios.post(`${URL}/todos`,{username:res.data.user.username}).then(res => {
         setTodos([...res.data.todos])
         // console.log([...res.data.todos]);
       }).catch(err => {
